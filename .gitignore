@@ -27,7 +27,7 @@ dist/
 *.egg-info/
 
 # Large/raw datasets
-data/raw/
+data/
 
 # Temporary files
 *.tmp
