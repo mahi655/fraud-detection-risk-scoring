@@ -1,0 +1,12 @@
+services:
+  fraud-api:
+
+    build:
+      context: .
+
+    container_name: fraud-detection-container
+
+    ports:
+      - "8000:8000"
+
+    restart: unless-stopped
